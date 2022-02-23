@@ -2,6 +2,9 @@ package sk.stuba.fei.uim.oop;
 
 import java.util.Arrays;
 
+/**
+ * dokumentacia triedy
+ */
 public class Main {
     public static void main(String[] args) {
         int x = 5;
@@ -18,6 +21,10 @@ public class Main {
         testArraySpread("test",1, 2, 3, 4, 5);
     }
 
+    /**
+     * táto funkcia vypisuje cislo
+     * @param cislo - integer cislo
+     */
     public static void testPrimitive(int cislo) {
         cislo = 10;
         System.out.println(cislo);
